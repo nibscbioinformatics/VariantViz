@@ -1,11 +1,3 @@
----
-title: "README"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## SNP_inhouse_downstream script
 
@@ -26,9 +18,11 @@ And it has the following output:
 ### Output image
 
 By calling the tool this way:
-Rscript /path/to/annotated_file_with_clinvar.vcf Example
 
+```
+Rscript /path/to/annotated_file_with_clinvar.vcf Example
+```
 
 We have the following output:
 
-![](/home/AD/praposo/CSP/files/Example.circos.plot.png)
+![](/images/Example.circos.plot.png)
