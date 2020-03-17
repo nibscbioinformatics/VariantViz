@@ -28,6 +28,7 @@ And it has the following output:
 By calling the tool this way:
 Rscript /path/to/annotated_file_with_clinvar.vcf Example
 
+
 We have the following output:
 
 ![](/home/AD/praposo/CSP/files/Example.circos.plot.png)
